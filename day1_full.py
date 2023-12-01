@@ -1,7 +1,7 @@
 import re
-sum = 0
 
 #  Part 1:
+sum = 0
 with open ("input.txt", "r") as f:
     for line in f:
         line = line.strip()
