@@ -6,8 +6,7 @@ with open ("input.txt", "r") as f:
     for line in f:
         line = line.strip()
         nums = re.findall("\d", line)
-        num = nums[0] + nums[-1]
-        sum += int(num)
+        sum += int(nums[0] + nums[-1])
 
 print(f"Total sum part 1: {sum}")
 
@@ -24,7 +23,6 @@ with open ("input.txt", "r") as f:
                 line = line.replace(key, str(numDict[key]))
         
         nums = re.findall("\d", line)
-        num = nums[0] + nums[-1]
-        sum += int(num)
+        sum += int(nums[0] + nums[-1])
 
 print(f"Total sum part 2: {sum}")
