@@ -42,7 +42,6 @@ for row in range(len(lines[0])):
                     
                     if not checkPos.isalnum() and checkPos != ".":
                         nice = True
-                        break
                 except:
                     pass
         else:
